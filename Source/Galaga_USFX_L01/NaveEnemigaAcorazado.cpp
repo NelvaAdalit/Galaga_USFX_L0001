@@ -10,18 +10,22 @@ ANaveEnemigaAcorazado::ANaveEnemigaAcorazado()
 	//mallaNaveEnemiga = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("ShipMesh"));
 	mallaNaveEnemiga->SetStaticMesh(ShipMesh.Object);
 	PrimaryActorTick.bCanEverTick = true;
-
+	
 }
 
-/*void ANaveEnemigaAcorazado::Tick(float DeltaTime)
+void ANaveEnemigaAcorazado::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 	Mover(DeltaTime);
-}*/
+}
 
-void ANaveEnemigaAcorazado::Mover()
+
+void ANaveEnemigaAcorazado::Mover(float DeltaTime)
 {
-	//SetActorLocation(FVector(GetActorLocation().X + 1, GetActorLocation().Y + 1, GetActorLocation().Z));
+	velocidad = 1;
+	SetActorLocation(FVector(GetActorLocation().X + velocidad, GetActorLocation().Y, GetActorLocation().Z));
+
+
 
 }
 

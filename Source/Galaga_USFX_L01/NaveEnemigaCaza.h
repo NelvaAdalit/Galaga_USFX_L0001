@@ -32,9 +32,10 @@ public:
 	FORCEINLINE void SetVelocidad(int _velocidad) { velocidad = _velocidad; }
 	FORCEINLINE void SetResistencia(int _resistencia) { resistencia = _resistencia; }
 
+	virtual void Tick(float DeltaTime) override;
 
 protected:
-	virtual void Mover();
+	virtual void Mover(float DeltaTime);
 	virtual void Disparar();
 	virtual void Destruir();
 	virtual void Escapar();

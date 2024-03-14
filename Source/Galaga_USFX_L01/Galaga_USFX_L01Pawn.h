@@ -22,6 +22,13 @@ class AGalaga_USFX_L01Pawn : public APawn
 	/** Camera boom positioning the camera above the character */
 	UPROPERTY(Category = Camera, VisibleAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
 	class USpringArmComponent* CameraBoom;
+public:
+
+	FVector posicionNave = GetActorLocation();
+
+public:
+	FORCEINLINE FVector GetPosicionNave() const { return posicionNave; }
+
 
 public:
 	AGalaga_USFX_L01Pawn();

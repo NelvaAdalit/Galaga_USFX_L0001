@@ -15,12 +15,13 @@ class GALAGA_USFX_L01_API ANaveEnemigaAcorazadodeBatalla : public ANaveEnemigaAc
 	GENERATED_BODY()
 private:
 	int escudos;
+	int flag=1;
 	int armasPrimarias;
 	int armasSecundarias;
 	int tiempoDeteccionenemigos;
 public:
 	//ANaveEnemigaAcorazadodeBatalla();
-
+	virtual void Tick(float DeltaTime) override;
 	FORCEINLINE int GetEscudos() const { return escudos; }
 	FORCEINLINE int GetArmasPrimarias() const { return armasPrimarias; }
 	FORCEINLINE int GetArmasSecundarias() const { return armasSecundarias; }
@@ -33,7 +34,7 @@ public:
 	 
 
 protected:
-	   virtual void moverse() ;
+	   virtual void Mover(float DeltaTime) override;
 	   virtual void disparar();
 	   virtual void atacar();
 	   virtual void recargarenergia();
