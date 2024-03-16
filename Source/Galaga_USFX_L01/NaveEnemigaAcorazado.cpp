@@ -22,8 +22,8 @@ void ANaveEnemigaAcorazado::Tick(float DeltaTime)
 
 void ANaveEnemigaAcorazado::Mover(float DeltaTime)
 {
-	velocidad = 1;
-	SetActorLocation(FVector(GetActorLocation().X + velocidad, GetActorLocation().Y, GetActorLocation().Z));
+	velocidad =1 ;
+	SetActorLocation(FVector(GetActorLocation().X - velocidad, GetActorLocation().Y, GetActorLocation().Z));
 
 
 

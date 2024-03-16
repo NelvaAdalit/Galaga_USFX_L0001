@@ -15,7 +15,7 @@ class GALAGA_USFX_L01_API ANaveEnemigaAcorazadodeBatalla : public ANaveEnemigaAc
 	GENERATED_BODY()
 private:
 	int escudos;
-	int flag=1;
+	//int flag=1;
 	int armasPrimarias;
 	int armasSecundarias;
 	int tiempoDeteccionenemigos;

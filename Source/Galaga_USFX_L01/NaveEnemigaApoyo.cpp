@@ -11,9 +11,16 @@ ANaveEnemigaApoyo::ANaveEnemigaApoyo()
 	mallaNaveEnemiga->SetStaticMesh(ShipMesh.Object);
 
 }
-
-void ANaveEnemigaApoyo::Mover()
+void ANaveEnemigaApoyo::Tick(float DeltaTime)
 {
+	Super::Tick(DeltaTime);
+	Mover(DeltaTime);
+}
+void ANaveEnemigaApoyo::Mover(float DeltaTime)
+{
+	velocidad=1;
+	SetActorLocation(FVector(GetActorLocation().X +velocidad, GetActorLocation().Y+4, GetActorLocation().Z+3));
+
 }
 
 void ANaveEnemigaApoyo::Disparar()

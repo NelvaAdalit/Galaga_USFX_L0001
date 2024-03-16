@@ -33,11 +33,12 @@ public:
 	FORCEINLINE void SetCantidadArmamento(int _cantidadArmamento) { cantidadArmamento = _cantidadArmamento; }
 	FORCEINLINE void SetVelocidad(int _velocidad) { velocidad = _velocidad; }
 	FORCEINLINE void SetTiempoAlcance(int _tiempoAlcance) { tiempoAlcance = _tiempoAlcance; }
+	virtual void Tick(float DeltaTime) override;
 
 
 
 protected:
-	virtual void Mover();
+	virtual void Mover (float DeltaTime);
 	virtual void Disparar();
 	virtual void Destruir();
 	virtual void Escapar();

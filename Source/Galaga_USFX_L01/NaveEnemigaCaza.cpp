@@ -26,9 +26,7 @@ void ANaveEnemigaCaza::Mover(float DeltaTime)
 	velocidad = 1;
 	SetActorLocation(FVector(GetActorLocation().X -velocidad, GetActorLocation().Y, GetActorLocation().Z));
 
-	//if (Super::GetPosicion().X == -1600.0f) {
-	//	SetPosicion(FVector(200, 200, 250)); 
-	//} 
+ 
 
 }
 

@@ -35,8 +35,10 @@ public:
 	FORCEINLINE void SetLaser(int _laser) { laser = _laser; }
 	FORCEINLINE void SetMisiles(int _misiles) { misiles = _misiles; }
 	FORCEINLINE void SetCanones(int _canones) { canones = _canones; }
+	virtual void Tick(float DeltaTime) override;
+
 protected:
-	virtual void Mover();
+	virtual void Mover(float DeltaTime);
 	virtual void Disparar();
 	virtual void Vigilancia();
 	virtual void Apoyo();

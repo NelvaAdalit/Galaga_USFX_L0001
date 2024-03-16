@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Galaga_USFX_L01.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{0F6EE52D-454E-4FE2-80C4-0656BE0A4B7F}</UniqueIdentifier>
+      <UniqueIdentifier>{01E8732D-5ABB-4CC3-8050-B7620F021FF4}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Galaga_USFX_L01.Target.cs">
       <Filter>Source</Filter>
@@ -14,7 +14,7 @@
     <None Include="..\..\.gitattributes" />
     <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{6B084429-CF21-4960-9AD5-F4B5EFB4E318}</UniqueIdentifier>
+      <UniqueIdentifier>{17732EF3-E949-4786-8A54-1D50146EC7D6}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -32,7 +32,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Galaga_USFX_L01">
-      <UniqueIdentifier>{EF395F6A-73E0-416D-850A-6F67857401BA}</UniqueIdentifier>
+      <UniqueIdentifier>{A3743E8A-17F4-4FBB-B409-EC837FE195C8}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Galaga_USFX_L01\Galaga_USFX_L01.Build.cs">
       <Filter>Source\Galaga_USFX_L01</Filter>

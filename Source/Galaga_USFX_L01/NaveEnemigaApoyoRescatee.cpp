@@ -3,6 +3,19 @@
 
 #include "NaveEnemigaApoyoRescatee.h"
 
+
+void ANaveEnemigaApoyoRescatee::Tick(float DeltaTime) {
+
+	Super::Tick(DeltaTime);
+	Mover(DeltaTime);
+
+}
+void ANaveEnemigaApoyoRescatee::Mover(float DeltaTime)
+{
+	SetActorLocation(FVector(GetActorLocation().X, GetActorLocation().Y, GetActorLocation().Z + 1));
+}
+
+
 void ANaveEnemigaApoyoRescatee::RescatarNave()
 {
 }

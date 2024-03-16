@@ -29,7 +29,11 @@ public:
 	FORCEINLINE void SetSistemasComunicacion(bool _sistemasComunicacion) { sistemasComunicacion = _sistemasComunicacion; }
 	FORCEINLINE void SetCapacidadCarga(int _capacidadCarga) { capacidadCarga = _capacidadCarga; }
 	FORCEINLINE void SetPuntosSalud(int _puntosSalud) { puntosSalud = _puntosSalud; }
+
+	virtual void Tick(float DeltaTime) override;
 protected:
+
+	virtual void Mover(float DeltaTime);
 	virtual void RescatarNave ();
 	virtual void TrasladoTripulacion();
 	virtual void EntregarSuministros();

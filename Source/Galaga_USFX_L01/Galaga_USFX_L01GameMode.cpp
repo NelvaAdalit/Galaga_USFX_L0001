@@ -39,18 +39,21 @@ void AGalaga_USFX_L01GameMode::BeginPlay()
 {
 	Super::BeginPlay();
 	//Set the game state to playing
+	FVector ubicacionInicioNavesEnemigasCaza = FVector(-500.0f, 500.0f, 250.0f);
+	FVector ubicacionInicioNavesEnemigasTransporte = FVector(700.0f, 500.0f, 250.0f);
 
-	FVector ubicacionNave01 = FVector(-300.0f, -500.0f, 250.0f);
-	FVector ubicacionNave02 = FVector(-500.0f, -500.0f, 250.0f);
+
+	//FVector ubicacionNave01 = FVector(-300.0f, -500.0f, 250.0f);
+	//FVector ubicacionNave02 = FVector(-500.0f, -500.0f, 250.0f);
 	FVector ubicacionNave03 = FVector(-600.0f, -500.0f, 250.0f);
 	FVector ubicacionNave04 = FVector(-700.0f, -500.0f, 250.0f);
 	FVector ubicacionNave05 = FVector(-800.0f, -500.0f, 250.0f);
 	FVector ubicacionNave06 = FVector(-900.0f, -500.0f, 250.0f);
-	FVector ubicacionNave07 = FVector(- 400.0f, -500.0f, 250.0f);
+	FVector ubicacionNave07 = FVector(- 800.0f, -600.0f, 250.0f);
 	FVector ubicacionNave08 = FVector(-900.0f, -700.0f, 250.0f);
 	FVector ubicacionNave09 = FVector(-900.0f, -900.0f, 250.0f);
-	FVector ubicacionNave010 = FVector(-400.0f, -600.0f, 250.0f);
-	FVector ubicacionNave022 = FVector(-400.0f, -700.0f, 250.0f);
+	FVector ubicacionNave010 = FVector(-800.0f, -600.0f, 250.0f);
+	FVector ubicacionNave022 = FVector(-900.0f, -700.0f, 250.0f);
 	FVector ubicacionNave014 = FVector(-500.0f, -800.0f, 250.0f);
 	FVector ubicacionNave015 = FVector(-600.0f, -900.0f, 250.0f);
 	FVector ubicacionNave016 = FVector(-700.0f, -100.0f, 250.0f);
@@ -64,13 +67,29 @@ void AGalaga_USFX_L01GameMode::BeginPlay()
 	
 
 	FRotator rotacionNave = FRotator(0.0f, 0.0f, 0.0f);
-
+	
 	UWorld* const World = GetWorld();
 	if (World != nullptr)
 	{
+		for (int i = 0; i < 5; i++) {
+			FVector PosicionNaveActual = FVector(ubicacionInicioNavesEnemigasCaza.X, ubicacionInicioNavesEnemigasCaza.Y + i * 300, ubicacionInicioNavesEnemigasTransporte.Z);
+			ANaveEnemigaCaza* NaveEnemigaCazaTemporal = World->SpawnActor<ANaveEnemigaCaza>(PosicionNaveActual, rotacionNave);
+
+			TANavesEnemigasCaza.Push(NaveEnemigaCazaTemporal);
+		}
+
+		for (int i = 0; i < 5; i++) {
+			FVector PosicionNaveActual = FVector(ubicacionInicioNavesEnemigasCaza.X, ubicacionInicioNavesEnemigasCaza.Y + i * 200, ubicacionInicioNavesEnemigasTransporte.Z);
+			ANaveEnemigaTransporte* NaveEnemigaTransporteTemporal = World->SpawnActor<ANaveEnemigaTransporte>(PosicionNaveActual, rotacionNave);
+
+			TANavesEnemigasTransporte.Push(NaveEnemigaTransporteTemporal);
+		}
+
+
+
 		// spawn the projectile
-		NaveEnemigaTransporte01 = World->SpawnActor<ANaveEnemigaTransporte>(ubicacionNave01, rotacionNave);
-		NaveEnemigaCaza01 = World->SpawnActor<ANaveEnemigaCaza>(ubicacionNave02, rotacionNave);
+		//NaveEnemigaTransporte01 = World->SpawnActor<ANaveEnemigaTransporte>(ubicacionNave01, rotacionNave);
+		//NaveEnemigaCaza01 = World->SpawnActor<ANaveEnemigaCaza>(ubicacionNave02, rotacionNave);
 		NaveEnemigaEspia01 = World->SpawnActor<ANaveEnemigaEspia>(ubicacionNave03, rotacionNave);
 		NaveEnemigaReabastecimiento01 = World->SpawnActor<ANaveEnemigaReabastecimiento>(ubicacionNave04, rotacionNave);
 		NaveEnemigaNodriza01 = World->SpawnActor<ANaveEnemigaNodriza>(ubicacionNave05, rotacionNave);
@@ -94,8 +113,8 @@ void AGalaga_USFX_L01GameMode::BeginPlay()
 	
 	}
 
-	NaveEnemigaCaza01->SetPosicion(FVector(-500.0f, 500.0f, 200.0f));
-	NaveEnemigaTransporte01->SetPosicion(FVector(500.0f, -500.0f, 200.0f));
+	//NaveEnemigaCaza01->SetPosicion(FVector(-500.0f, 500.0f, 200.0f));
+	//NaveEnemigaTransporte01->SetPosicion(FVector(500.0f, -500.0f, 200.0f));
 	NaveEnemigaEspia01->SetPosicion(FVector(600.0f, -500.0f, 200.0f));
 	NaveEnemigaReabastecimiento01->SetPosicion(FVector(700.0f, -500.0f, 200.0f));
 	NaveEnemigaNodriza01->SetPosicion(FVector(800.0f, -500.0f, 200.0f));
