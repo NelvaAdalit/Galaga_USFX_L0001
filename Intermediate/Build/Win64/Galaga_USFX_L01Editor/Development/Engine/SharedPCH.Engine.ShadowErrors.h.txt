@@ -1,4 +1,4 @@
-C:/Users/CAPITAL COMPUTERS/Downloads/Galaga_USFX_L02 Grupo 1-master/Galaga_USFX_L01-master/Intermediate/Build/Win64/Galaga_USFX_L01Editor/Development/Engine/SharedPCH.Engine.ShadowErrors.h
+C:/Users/CAPITAL COMPUTERS/source/repos/Galaga_USFX_L0001/Intermediate/Build/Win64/Galaga_USFX_L01Editor/Development/Engine/SharedPCH.Engine.ShadowErrors.h
 C:/Program Files/Epic Games/UE_4.27/Engine/Source/Runtime/Engine/Public/EngineSharedPCH.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Core\Public\Containers/ContainersFwd.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Core\Public\CoreTypes.h

@@ -1,7 +1,7 @@
-C:\Users\CAPITAL COMPUTERS\Downloads\Galaga_USFX_L02 Grupo 1-master\Galaga_USFX_L01-master\Intermediate\Build\Win64\UE4Editor\Development\Galaga_USFX_L01\Definitions.Galaga_USFX_L01.h
-C:\Users\CAPITAL COMPUTERS\Downloads\Galaga_USFX_L02 Grupo 1-master\Galaga_USFX_L01-master\Source\Galaga_USFX_L01\NaveEnemigaAcorazadoExploracion.h
-C:\Users\CAPITAL COMPUTERS\Downloads\Galaga_USFX_L02 Grupo 1-master\Galaga_USFX_L01-master\Source\Galaga_USFX_L01\NaveEnemigaAcorazado.h
-C:\Users\CAPITAL COMPUTERS\Downloads\Galaga_USFX_L02 Grupo 1-master\Galaga_USFX_L01-master\Source\Galaga_USFX_L01\NaveEnemiga.h
-C:\Users\CAPITAL COMPUTERS\Downloads\Galaga_USFX_L02 Grupo 1-master\Galaga_USFX_L01-master\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_USFX_L01\NaveEnemiga.generated.h
-C:\Users\CAPITAL COMPUTERS\Downloads\Galaga_USFX_L02 Grupo 1-master\Galaga_USFX_L01-master\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_USFX_L01\NaveEnemigaAcorazado.generated.h
-C:\Users\CAPITAL COMPUTERS\Downloads\Galaga_USFX_L02 Grupo 1-master\Galaga_USFX_L01-master\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_USFX_L01\NaveEnemigaAcorazadoExploracion.generated.h
+C:\Users\CAPITAL COMPUTERS\source\repos\Galaga_USFX_L0001\Intermediate\Build\Win64\UE4Editor\Development\Galaga_USFX_L01\Definitions.Galaga_USFX_L01.h
+C:\Users\CAPITAL COMPUTERS\source\repos\Galaga_USFX_L0001\Source\Galaga_USFX_L01\NaveEnemigaAcorazadoExploracion.h
+C:\Users\CAPITAL COMPUTERS\source\repos\Galaga_USFX_L0001\Source\Galaga_USFX_L01\NaveEnemigaAcorazado.h
+C:\Users\CAPITAL COMPUTERS\source\repos\Galaga_USFX_L0001\Source\Galaga_USFX_L01\NaveEnemiga.h
+C:\Users\CAPITAL COMPUTERS\source\repos\Galaga_USFX_L0001\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_USFX_L01\NaveEnemiga.generated.h
+C:\Users\CAPITAL COMPUTERS\source\repos\Galaga_USFX_L0001\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_USFX_L01\NaveEnemigaAcorazado.generated.h
+C:\Users\CAPITAL COMPUTERS\source\repos\Galaga_USFX_L0001\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_USFX_L01\NaveEnemigaAcorazadoExploracion.generated.h

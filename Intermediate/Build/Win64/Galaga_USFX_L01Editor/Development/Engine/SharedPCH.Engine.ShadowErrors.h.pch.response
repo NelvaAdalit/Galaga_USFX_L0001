@@ -260,11 +260,11 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"
-/I "C:\Users\CAPITAL COMPUTERS\Downloads\Galaga_USFX_L02 Grupo 1-master\Galaga_USFX_L01-master\Intermediate\Build\Win64\Galaga_USFX_L01Editor\Development\Engine"
-/Yc"C:\Users\CAPITAL COMPUTERS\Downloads\Galaga_USFX_L02 Grupo 1-master\Galaga_USFX_L01-master\Intermediate\Build\Win64\Galaga_USFX_L01Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"C:\Users\CAPITAL COMPUTERS\Downloads\Galaga_USFX_L02 Grupo 1-master\Galaga_USFX_L01-master\Intermediate\Build\Win64\Galaga_USFX_L01Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"C:\Users\CAPITAL COMPUTERS\Downloads\Galaga_USFX_L02 Grupo 1-master\Galaga_USFX_L01-master\Intermediate\Build\Win64\Galaga_USFX_L01Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.cpp"
-/Fo"C:\Users\CAPITAL COMPUTERS\Downloads\Galaga_USFX_L02 Grupo 1-master\Galaga_USFX_L01-master\Intermediate\Build\Win64\Galaga_USFX_L01Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+/I "C:\Users\CAPITAL COMPUTERS\source\repos\Galaga_USFX_L0001\Intermediate\Build\Win64\Galaga_USFX_L01Editor\Development\Engine"
+/Yc"C:\Users\CAPITAL COMPUTERS\source\repos\Galaga_USFX_L0001\Intermediate\Build\Win64\Galaga_USFX_L01Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"C:\Users\CAPITAL COMPUTERS\source\repos\Galaga_USFX_L0001\Intermediate\Build\Win64\Galaga_USFX_L01Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"C:\Users\CAPITAL COMPUTERS\source\repos\Galaga_USFX_L0001\Intermediate\Build\Win64\Galaga_USFX_L01Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.cpp"
+/Fo"C:\Users\CAPITAL COMPUTERS\source\repos\Galaga_USFX_L0001\Intermediate\Build\Win64\Galaga_USFX_L01Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
 /TP
 /GR-
 /W4

@@ -1,0 +1,7 @@
+C:\Users\CAPITAL COMPUTERS\source\repos\Galaga_USFX_L0001\Intermediate\Build\Win64\UE4Editor\DebugGame\Galaga_USFX_L01\Definitions.Galaga_USFX_L01.h
+C:\Users\CAPITAL COMPUTERS\source\repos\Galaga_USFX_L0001\Source\Galaga_USFX_L01\NaveEnemigaEspiaInfiltracion.h
+C:\Users\CAPITAL COMPUTERS\source\repos\Galaga_USFX_L0001\Source\Galaga_USFX_L01\NaveEnemigaEspia.h
+C:\Users\CAPITAL COMPUTERS\source\repos\Galaga_USFX_L0001\Source\Galaga_USFX_L01\NaveEnemiga.h
+C:\Users\CAPITAL COMPUTERS\source\repos\Galaga_USFX_L0001\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_USFX_L01\NaveEnemiga.generated.h
+C:\Users\CAPITAL COMPUTERS\source\repos\Galaga_USFX_L0001\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_USFX_L01\NaveEnemigaEspia.generated.h
+C:\Users\CAPITAL COMPUTERS\source\repos\Galaga_USFX_L0001\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_USFX_L01\NaveEnemigaEspiaInfiltracion.generated.h
